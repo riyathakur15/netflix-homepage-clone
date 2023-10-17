@@ -1,0 +1,799 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    background-image: linear-gradient(rgba(67, 60, 60, 0.354),rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.555),transparent) ,url(./images/nbanner.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    background-color: black;
+   
+ 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    margin-top: -32px;
+    
+}
+ header #left img{
+    width: 10rem;
+   
+}
+ header #right {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+   
+   
+}
+ header #right select{
+    background-color:rgba(0, 0, 0, 0.459);
+    color: white;
+  
+   padding: 0.5rem 0.5rem 0.5rem 2rem;
+   
+    padding-left: 2rem; 
+    border-radius: 5px;
+   
+   
+}
+option{
+    background-color: white;
+}
+ header button{
+    background-color:#E50914;
+    color:white;
+    border-radius: 5px;
+    padding: 9px 19px;
+    width: 100%;   
+}
+ .fa-solid.fa-globe{
+   
+     position: absolute;
+     top:25%;
+     left: 5%;
+    color: white;
+
+
+}
+#biggest{
+    color : white;
+    text-align: center;
+    margin-top: 5rem;
+    
+   
+}
+#biggest h1{
+    font-size: 3.2rem;
+    margin-bottom: 0rem;
+    padding: 0rem 7.5rem;
+    font-weight:bolder;
+   
+}
+#biggest p{
+    font-size: 1.3rem;
+    margin: 1rem;
+    margin-bottom:2rem;
+    font-weight:500;
+}
+#biggest #ready{
+    font-size:1.3rem;
+    margin-bottom: 1rem;
+   
+}
+#biggest input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 1rem 1rem;
+    padding-top: 1.3rem;
+    padding-right: 6rem;
+    margin-left: -3rem;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bolder;
+}
+#biggest button{
+    font-size:x-large;
+    text-align: center;
+    background-color: #E50914;
+    color:white;
+    padding:0.8rem 1rem ;
+    padding-right: 2rem;
+   
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.fa-solid.fa-angle-right{
+    color: white;
+    margin-left: 0.5rem;
+}
+#enjoy {
+   
+  
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    align-items: center;
+ 
+}
+#enjoy div{
+    width: 50%;
+}
+#enjoy #smart h1{
+    font-size: 3rem;
+
+}
+#enjoy #smart p{
+    font-size: 1.8rem;
+}
+#enjoy #tv{
+ position: relative;
+}
+#enjoy #tv img{
+    width: 100%;
+    z-index: 2;
+    position: relative;
+
+}
+#enjoy #tv video{
+    position: absolute;
+    top:21%;
+    left:13.4%;
+    width: 73%;
+    z-index: 1;
+
+
+}
+#download{
+    display: flex;
+    color: white;
+    margin-top: 20%;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#download #show h1{
+    font-size: 3rem;
+}
+#download #show p{
+    font-size: 1.3rem;
+   
+}
+#download #mobile{
+    width: 45%;
+    position: relative;
+}
+#download #show{
+    width: 45%;
+}
+#download #mobile #ele{
+    width: 100%;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid gray;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0%;
+    left: 17%;
+    height: 20%;
+    background-color: black;
+    
+}
+#box #strange{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+#box #strange img{
+    width: 90%;
+}
+#strange h3{
+    font-size: 0.9rem;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#box #strange p{
+    color: #0063e2;
+    margin-top: 0px;
+}
+#box #gif{
+    width: 15%;
+}
+#box #gif img{
+   width:100%;
+  
+}
+#watch{
+    /* border-top: 5px solid rgba(183, 178, 178, 0.612); */
+    
+    display: flex;
+    color: white;
+    
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+}
+#watch #stream h1{
+    font-size: 3rem;
+}
+#watch #stream p{
+    font-size: 1.2rem;
+    margin-top: 0rem;
+}
+#watch #saif video{
+    position: absolute;
+    top:13%;
+    left:59%;
+    width:24%;
+    z-index: 1;
+    
+}
+#watch #saif img{
+    width: 80%;
+    position: relative;
+    z-index: 2;
+   
+}
+#create{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    
+}
+#create h1{
+   
+    font-size: 3.5rem;
+    padding-left: 5rem;
+}
+#create p{
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    padding-left: 5rem;
+
+}
+#create img{
+    width: 120%;
+}
+footer{
+   
+    position: relative;
+    color: #c6c6c6;
+  padding : 1rem 6rem 5rem 11rem;
+   
+}
+footer section{
+    width: 70%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px 4px 4px;
+}
+footer section ul{
+   
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    
+}
+footer section ul li{
+    padding-bottom: 1rem;
+}
+
+a{
+    
+    color: #c6c6c6;
+    font-weight: 500;
+    font-size: 0.8rem;
+    
+   
+}
+
+
+footer h1{
+    color: #c6c6c6;
+   font-size: 1rem;
+   margin: 2rem;
+   margin-left: 0rem;
+
+
+}
+footer div .fa-solid.fa-globe{
+    position: absolute;
+    top: 18.8rem;
+    left: 11.8rem;
+    color: white;
+}
+footer #f select{
+    background-color:rgba(0, 0, 0, 0.459);
+    color: white;
+  
+   padding: 0.5rem 0.5rem 0.5rem 2rem;
+   
+    padding-left: 2rem; 
+    border-radius: 5px;
+
+}
+footer p{
+    color: #c6c6c6;
+}
+ 
+hr{
+    height: 10px;
+    margin-top: 12.5rem;
+    background-color:#232323 ;
+    border: none;
+  
+}
+#e{
+    height: 10px;
+    margin-top: 3rem;
+    background-color:#232323 ;
+    border: none;
+  
+}
+#question{
+   
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+ position: relative;
+    
+}
+#question ul li .plus{
+    font-size: 3rem;
+}
+#question h1{
+    text-align: center;
+    font-size: 3rem;
+}
+#question ul{
+    list-style-type: none;
+}
+#question ul li .span1{
+ display: flex;
+ justify-content: space-between;
+ font-size: 1.5rem;
+ background-color: #2d2d2d; 
+ padding: 1rem;
+}
+#what:hover #div1{
+    display: block;
+
+}
+#li2:hover #div2{
+    display: block;
+
+}
+#where:hover #div3{
+    display: block;
+
+}
+#how:hover #div4{
+    display: block;
+
+}
+#can:hover #div5{
+    display: block;
+
+}
+#is:hover #div6{
+    display: block;
+
+}
+#question ul li{
+    margin-bottom: 0.5rem;
+    
+}
+ #div1{
+    display: none;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1rem;
+    background-color: #2d2d2d; 
+}
+#div2{
+    display: none;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1rem;
+    background-color: #2d2d2d; 
+}
+#div3{
+    display: none;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1rem;
+    background-color: #2d2d2d; 
+}
+#div4{
+    display: none;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1rem;
+    background-color: #2d2d2d; 
+}
+#div5{
+    display: none;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1rem;
+    background-color: #2d2d2d; 
+}
+#div6{
+    display: none;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1rem;
+    background-color: #2d2d2d; 
+}
+
+#question p{
+    text-align: center;
+}
+#question input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 1rem 1rem;
+    padding-top: 1rem;
+    padding-right: 6rem;
+    margin-left: 15rem;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bolder;
+}
+#question #get{
+    font-size:x-large;
+    text-align: center;
+    background-color: #E50914;
+    color:white;
+    padding:0.8rem 1rem ;
+    padding-right: 2rem;
+   width: 20%;
+    border: 1px solid transparent;
+    bottom: -0.5rem;
+    right: 15rem;
+  height: 8.5%;
+    border-radius: 5px;
+    position: absolute;
+}
+#fl{
+    margin-top: 2rem;
+}
+
+/* ====================mobile========================= */
+@media(max-width:600px){
+    body{
+        background-size: 300%; 
+    }
+    header{
+       
+        padding:1rem;
+        margin-top: -32px;
+        
+    }
+     header #left img{
+        width: 7rem;
+       padding-right: 5rem;
+    }
+    
+     header #right select{
+        width: 40%; 
+       
+       
+    }
+    
+     header button{
+        width: 60%;  
+        margin: -4px;
+        
+    }
+
+   
+    #biggest h1{
+        font-size: 2rem;
+        margin-top: 0px;;
+        padding: 0rem 1rem; 
+        margin-bottom: 0px;
+    }
+    #biggest p{
+        font-size: 1rem;
+    }
+    #biggest #ready{
+        
+        font-size:1.125rem;
+        margin-bottom: 1rem;
+        padding: 0rem 4rem 2rem 2rem;
+        
+        width: 70%;
+        margin: auto;
+       
+    }
+    #biggest input{
+        margin-left: 1rem;
+        width: 50%;   
+    }
+    #biggest button{
+        margin-top: 1rem;
+       width: 50%;
+        padding-right: 1rem;
+    }
+    hr{
+        margin-top: 2.5rem;
+    }
+    #enjoy {
+        display: block;
+        width: 90%;
+        margin-top: 6rem;  
+       
+    }
+    #enjoy div{
+        width: 80%;
+       
+    }
+    #enjoy #smart h1{
+        font-size: 2rem;
+      margin-left: 2rem;
+      width: 100%;
+    }
+    #enjoy #smart p{
+        font-size: 1.1rem;
+        width: 120%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    #enjoy #tv{
+     margin-left: 2rem;
+    }
+    #enjoy #tv img{
+        width: 100%;   
+    }
+    #download{
+        display: flex;
+        width: 100%;
+        margin-top: 2rem;  
+        flex-direction: column-reverse;
+       
+    }
+    #download #show{
+        width: 80%;
+    }
+    #download #mobile{
+        width: 85%;
+    }
+    #download #show h1{
+        font-size: 1.7rem;   
+       width: 90%;
+      text-align: center;
+      margin: auto;
+     
+    }
+    #download #show p{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    #download #mobile #ele{
+        width: 100%;
+    
+    }
+
+
+    #box{
+       
+        width: 75%;
+       
+        margin-right: 30px;
+        
+    }
+  
+    
+    #strange h3{
+        font-size: 0.9rem;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    #box #strange p{
+        color: #0063e2;
+        margin-top: 0px;
+    }
+    #box #gif{
+        width: 15%;
+    }
+    #box #gif img{
+       width:100%;
+      
+    }
+    #watch{
+        /* border-top: 5px solid rgba(183, 178, 178, 0.612); */
+        
+        display: block;
+        width: 80%;
+        margin-top: 5rem;
+    }
+    #watch #stream h1{
+        font-size: 2rem;
+    }
+    #watch #stream p{
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+       
+
+    }
+    #watch #saif video{
+        position: absolute;
+        top:45%;
+        left:25%;
+        width:62%;   
+    }
+    #watch #saif img{
+        width: 100%;
+        margin-left: 1rem;    
+    }
+    #create{
+        display: flex;
+        margin-top: 5rem;
+        flex-direction: column-reverse;
+        
+    }
+    
+    #create h1{
+       text-align: center;
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+    #create p{
+        font-size: 1rem;
+       padding-left: 1rem;
+       text-align: center;
+    
+    }
+    #create img{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    footer{
+        
+      padding : 2rem 0rem 1rem 1rem;
+       
+    }
+    footer section{
+        width: 100%;
+        display: block;
+    }
+
+        
+
+    footer  div .fa-solid.fa-globe{
+       
+        top: 43.5rem;
+        left: 1.8rem;
+       
+    }
+
+
+    #question{
+   
+
+        width: 90%;
+       
+       
+        
+    }
+    #question h1{
+       
+        font-size: 2rem;
+    }
+    #question ul {
+        padding-left: 0rem;
+    }
+    
+    #question ul li .span1{
+     width: 90%;
+     font-size: 1rem;
+   
+    }
+   
+  
+  
+     #div1{
+      
+        font-size: 1rem;
+       
+    }
+    #div2{
+       
+        font-size: 1rem;
+       
+    }
+    #div3{
+       
+        font-size: 1rem;
+       
+    }
+    #div4{
+        
+        font-size: 1rem;
+       
+    }
+    #div5{
+       
+        font-size: 1rem;
+      
+    }
+    #div6{
+       
+        font-size: 1rem;
+         
+    }
+    
+    #question p{
+        width: 70%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    #question input{
+       
+        margin-top: 1rem;
+        margin-left: 2rem;
+        width: 50%;
+       
+    }
+    #question #get{
+       
+        margin-bottom: -1rem;
+        width: 50%;
+        font-size: 1.2rem;
+        bottom: -3.5rem;
+        right: 5rem;
+      height: 3.5rem;
+       
+    }
+    #fl{
+        margin-top: 7rem;
+    }
+    
+    
+    
+    
+   
+    
+
+}
+
+
+
